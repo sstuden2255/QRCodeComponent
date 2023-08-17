@@ -2,34 +2,35 @@ body {
   background-color: hsl(212, 45%, 89%);
 }
 
-#card {
-  width: 290px;
+.card {
+  width: 280px;
   height: 475px;
   background-color: hsl(0, 0%, 100%);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.01);
   padding: 16px;
   border-radius: 20px;
   text-align: center;
   margin: 10% auto;
 }
 
-#card > h1, #card > p {
+.card > h1, .card > p {
   font-family: 'Outfit', sans-serif;
 }
 
-#card > h1 {
-  font-weight: 700;
+.card > h1 {
   color: hsl(218, 44%, 22%);
 }
 
-#card > p {
+.card > p {
   font-weight: 400;
   color: hsl(220, 15%, 55%);
   font-size: 15px;
+  margin-bottom: 0px;
 }
 
 
 #qr-code {
-  height: 290px;
-  width: 290px;
+  height: 280px;
+  width: 280px;
   border-radius: 10px;
 }
